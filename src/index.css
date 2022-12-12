@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ededed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  padding: 3px;
+  font-size: x-large;
+  background-color: #d9d9d9;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+  gap: 0.5em;
+}
+
+.editor {
+  padding: 5px;
+  height: 700px;
+  width: 50%;
+  background: #d9d9d9;
+  border: 3px solid #c2c2c2;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  outline: none;
+  resize: vertical;
+  overflow: auto;
+}
+
+.previewer {
+  background: #d9d9d9;
+  border: 3px solid #c2c2c2;
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  height: 700px;
+  width: 50%;
+  overflow: auto;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  justify-content: left;
+  margin: 0.5em;
+}
+
+.button {
+  background-color: #d9d9d9;
+  padding: 0.5em;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
 }
