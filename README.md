@@ -1,5 +1,9 @@
 ## Live Markdown Previewer
 
-Application made from scratch using knowledge of HTML, CSS, and JavaScript (React)
+Web application: https://tesudesu.github.io/markdown-previewer/
 
-**Demo:** https://tesudesu.github.io/markdown-previewer/
+Completed towards freeCodeCamp Front End Development Libraries certification.
+
+Technologies: HTML, vanilla CSS, React, create-react-app
+
+Designed and coded by me :stuck_out_tongue_closed_eyes:
